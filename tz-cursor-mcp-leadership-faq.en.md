@@ -86,13 +86,13 @@ Directory groups, ticket templates and SSO - for the technical meeting, not for 
 
 We compare sites on the **same profile** (capacity, disks, backup) for security, integration, operations and cost.
 
-| Option | Position |
-|--------|----------|
-| Market-class dedicated server (Hetzner-class) | Reasonable cost; fits overnight search load |
-| Our Azure | May be preferable for integration and familiar IT processes - if a comparable profile after IT costing fits the budget |
-| ITG (~$960/mo compute alone) | Materially more expensive for little extra benefit; not proposed as the primary option |
+| Option | Price guide | Position |
+|--------|-------------|----------|
+| Market-class dedicated server (Hetzner) | ~€259/mo (~$280-320), plus backup | Reasonable cost; fits overnight search load. Section 1 yearly guide assumes this class |
+| Azure (comparable profile) | compute often on the order of **~$800-1,200+/mo**, plus disks and backup - exact figure from IT | May be preferable for integration and familiar processes; choose if total TCO fits the budget |
+| ITG (current) | **~$960/mo** compute alone | Materially more expensive for little extra benefit; not proposed as the primary option |
 
-**Hosting decision** with IT and Cyber after numbers are compared - not “because the first draft said so.” Section 1 assumes a market-class dedicated server; if Azure wins, we recalculate in one line.
+**Hosting decision** with IT and Cyber after numbers are compared. If Azure wins, we recalculate the yearly guide in one line.
 
 ---
 
