@@ -1,44 +1,37 @@
-# Why deploy Cursor and 1C search — brief for leadership
+# Why deploy Cursor and 1C search - brief for leadership
 
 **Language:** [Русский](tz-cursor-mcp-executive-summary.ru.md) | [English](tz-cursor-mcp-executive-summary.en.md)
 
-**Version:** 2.0 · **Date:** 2026-08-27  
-**Details:** [technical description](tz-cursor-mcp-team.en.md) · [risk and governance assessment](tz-cursor-mcp-governance-assessment.en.md)
+**Version:** 3.1 · **Date:** 2026-09-03  
+**Details:** [project description](tz-cursor-mcp-team.en.md) · [approval assessment](tz-cursor-mcp-governance-assessment.en.md) · [leadership FAQ](tz-cursor-mcp-leadership-faq.en.md)
 
 ---
 
 ## What we are deciding
 
-Give the 1C team and end users an **AI assistant that knows our 15 configurations** — not a generic public chatbot.
+Give the 1C team an AI assistant grounded in **our** configurations - not a generic public chatbot.
 
-**We ask to approve now:**
+**We ask to approve:**
 - tools for **15** developers and analysts;
-- a **help chat for up to 50** regular 1C users;
-- a server we control (recommended: Hetzner ~€259/mo);
-- security rules (**no** connection to live production databases with customer data).
+- later - a **help chat for up to 50** 1C users (same budget envelope);
+- a server under company control;
+- rule: **no live production databases with customer data.**
 
 ---
 
 ## The problem
 
-| Today | Business impact |
-|-------|-----------------|
-| 15 configurations, daily code changes | Knowledge is stuck in people’s heads |
-| Finding “where is this in the system” takes hours | Changes ship slower |
-| New hires ramp up slowly | Expensive onboarding |
-| 50 users ask analysts the same questions | Analysts are pulled off projects |
+Knowledge of 15 configurations sits in people’s heads; finding “where is this in the system” takes too long; repeated user questions pull analysts off project work.
 
 ---
 
 ## What we get
 
-| Who | What appears |
-|-----|----------------|
-| Developers and analysts (15) | **Cursor** editor + a shared knowledge base of all configurations on our server |
-| 1C users (up to 50) | Simple **web chat**: “how do I / how does it work” without calling an analyst |
-| Company | Indexes and sources on **our** server; access only via the corporate network; access removed on exit |
-
-We do **not** connect live production databases with real customer data. Only code exports and (optionally later) **test** copies.
+| Who | What |
+|-----|------|
+| IT (15) | Cursor + shared search over configuration exports on our server |
+| Users (up to 50) | Web help chat: “how do I / how does it work” |
+| Company | Sources and index on our side; access via corporate rules; revoke on exit |
 
 ---
 
@@ -46,39 +39,39 @@ We do **not** connect live production databases with real customer data. Only co
 
 | | |
 |-|-|
-| Per month (full scope) | about **$830–1,140** |
-| Per year | about **$15–16k** + 1C search-server licenses (to be confirmed) |
-| Server | ~€259/mo (Hetzner). ITG quote at $960/mo is **not competitive** |
-| Setup work | in-house, not in the cash budget |
-| Cursor | $20/person/mo (payroll stipend) |
+| Yearly guide | about **$16k** external spend |
+| Start-up (one-off) | about **$230-310** (MCP ~RUB 7,000-8,500 / ~$80-110 + host setup if needed) - inside the yearly guide |
+| Setup work | in-house, not in that figure |
+| Cursor | $20/person/mo (stipend) |
 
-Compared with half a 1C specialist’s cost, this is smaller — and it serves the whole team plus users.
+**1C firm** commercial search/AI product licenses are **not included:** the product is still in testing; official 1C pricing is expected no earlier than October 2026. Start does not depend on them.  
+Breakdown: [leadership FAQ](tz-cursor-mcp-leadership-faq.en.md) §1.
 
-**Payback (estimate):** IT time saved on the order of **$4–10k/mo** against ~$1k spend — plus less analyst load from end users.
-
----
-
-## How we roll out (not “everything at once”)
-
-1. **Approve now** the idea, budget, and security rules (including chat for 50).  
-2. Pilot with a few people and a few configurations.  
-3. If value is proven — all 15 IT.  
-4. Then chat: 10–15 users first, security check, then up to 50.
-
-We can stop after the pilot — it is not all-or-nothing.
+Server site (market-class dedicated server or our Azure) to be agreed with IT within the same guide. The expensive ITG quote (~$960/mo) is not proposed as the primary option.
 
 ---
 
-## Risks — briefly
+## Rollout
 
-| Risk | How we handle it |
-|------|------------------|
-| Does code go to the AI cloud? | Partly yes (as with any Cursor) — privacy mode on; ban passwords and customer data in chats |
-| Leak via user chat | No live production DB; personal-data filter; full question log |
-| Cost | Cheap dedicated server, not the expensive ITG virtual machine |
+1. Approve the idea, budget guide, and the production-DB rule.  
+2. Pilot with a few people and configurations.  
+3. If value is proven - full IT team.  
+4. Chat - staged, after access is agreed with IT/Cyber.
+
+We can stop after the pilot.
+
+---
+
+## Risks - briefly
+
+| Risk | Approach |
+|------|----------|
+| Code fragments in the AI cloud | Inherent to the tool; vendor privacy mode; ban passwords and customer data in prompts |
+| Leak via chat | No live DBs; logging; staged open |
+| Cost | Hold ~$16k/year; no invented 1C license lines |
 
 ---
 
 ## Ask
 
-> Approve launch: Cursor and search across 15 configurations for IT **and** a web help chat for up to 50 users, without live production databases, budget about **$15–16k/year** (+ search licenses), staged rollout with a security check before opening chat to all users.
+> Approve launch of Cursor and search over our configurations for IT and (staged) a web help chat for users, without live production databases, with a budget guide of about **$16k/year** external spend.
