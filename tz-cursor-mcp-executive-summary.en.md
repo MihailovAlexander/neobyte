@@ -39,10 +39,10 @@ Knowledge of 15 configurations sits in people’s heads; finding “where is thi
 
 | | |
 |-|-|
-| Yearly guide | about **$16k** external spend |
+| Yearly guide | about **$20k** external spend |
 | Start-up (one-off) | about **$230-310** (MCP ~RUB 7,000-8,500 / ~$80-110 + host setup if needed) - inside the yearly guide |
 | Setup work | in-house, not in that figure |
-| Cursor | $20/person/mo (stipend) |
+| Cursor | Teams ~$40/person/mo (corporate subscription) |
 
 **1C firm** commercial search/AI product licenses are **not included:** the product is still in testing; official 1C pricing is expected no earlier than October 2026. Start does not depend on them.  
 Breakdown: [leadership FAQ](tz-cursor-mcp-leadership-faq.en.md) §1.
@@ -68,10 +68,10 @@ We can stop after the pilot.
 |------|----------|
 | Code fragments in the AI cloud | Inherent to the tool; vendor privacy mode; ban passwords and customer data in prompts |
 | Leak via chat | No live DBs; logging; staged open |
-| Cost | Hold ~$16k/year; no invented 1C license lines |
+| Cost | Hold ~$20k/year; no invented 1C license lines |
 
 ---
 
 ## Ask
 
-> Approve launch of Cursor and search over our configurations for IT and (staged) a web help chat for users, without live production databases, with a budget guide of about **$16k/year** external spend.
+> Approve launch of Cursor and search over our configurations for IT and (staged) a web help chat for users, without live production databases, with a budget guide of about **$20k/year** external spend.

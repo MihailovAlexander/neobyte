@@ -17,7 +17,7 @@ Management description. Installation details - after approval, for administrator
 | What | Cursor + search over our configuration exports for IT; web help chat for users - same envelope, staged go-live |
 | Is this new 1C module development? | No |
 | Live production DBs with customer data? | **No** |
-| Budget | About **$16k/year** external |
+| Budget | About **$20k/year** external |
 
 ---
 
@@ -76,7 +76,7 @@ In the approved envelope. Go-live after server prep and access agreement, starti
 
 | | |
 |-|-|
-| Yearly guide | ~**$16k** (server and backup, Cursor × 15, AI services, buffer) |
+| Yearly guide | ~**$20k** (server and backup, Cursor Teams × 15, AI services, buffer) |
 | Start-up (one-off) | about **$230-310** (MCP ~RUB 7,000-8,500 / ~$80-110 + host setup if needed) - inside the yearly guide |
 | Setup and support | in-house, not in that figure |
 | 1C firm search/AI product licenses | **not included** - product in testing; 1C pricing no earlier than October 2026; start does not depend on them |

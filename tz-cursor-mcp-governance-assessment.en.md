@@ -15,7 +15,7 @@ Briefly: what we approve, who runs it, cost, security. Access and hosting detail
 | In | Out |
 |----|-----|
 | Server with search over configuration exports | Connecting **live** production DBs with customer data |
-| Cursor for 15 IT people | Invented 1C product licenses before an official price list |
+| Cursor Teams for 15 IT people | Invented 1C product licenses before an official price list |
 | Web help chat (up to 50) in the budget envelope; go-live staged | Expensive ITG quote (~$960/mo) as the primary option |
 | Usage rules and chat logging | External implementers for launch |
 
@@ -51,7 +51,7 @@ No external implementers required at start. Single-person risk is reduced with a
 
 ## 3. Cost
 
-Guide: about **$16k/year** external (server and backup, Cursor, AI services, buffer). In-house setup not in that figure.
+Guide: about **$20k/year** external (server and backup, Cursor Teams, AI services, buffer). In-house setup not in that figure.
 
 **1C firm** commercial search/AI product licenses are **not budgeted:** product still in testing; 1C pricing no earlier than October 2026. If needed later - a short separate request after prices exist.
 
@@ -89,7 +89,7 @@ We do not claim “nothing ever leaves the cloud.” We claim: no live customer 
 
 | When | Decision |
 |------|----------|
-| Now | Idea, ~$16k/year guide, production-DB rule |
+| Now | Idea, ~$20k/year guide, production-DB rule |
 | After pilot | Continue to full IT or stop |
 | Before chat for all | Access agreed with IT/Cyber |
 | Later | 1C product licenses only if price list and need appear |
@@ -98,4 +98,4 @@ We do not claim “nothing ever leaves the cloud.” We claim: no live customer 
 
 ## Decision wording
 
-> Approve launch of Cursor and search over our configuration exports for IT and (staged) a web help chat for users, without live production databases; budget guide about **$16k/year** external; in-house delivery; hosting and access model to be agreed with IT and Cyber.
+> Approve launch of Cursor and search over our configuration exports for IT and (staged) a web help chat for users, without live production databases; budget guide about **$20k/year** external; in-house delivery; hosting and access model to be agreed with IT and Cyber.
