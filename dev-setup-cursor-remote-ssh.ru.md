@@ -97,7 +97,7 @@ Host *
 ```text
 Host neobyte-dev
   HostName neobyte.twc1.net
-  User neobyte
+  User ИМЯ-ЮЗЕРА-СКАЖЕТ-АДМИНМТРАТОР
   IdentityFile ~/.ssh/id_ed25519
   ServerAliveInterval 60
   ServerAliveCountMax 10
@@ -108,7 +108,7 @@ Host neobyte-dev
 |------|----------|
 | `Host neobyte-dev` | Короткое имя для Cursor / `ssh neobyte-dev` |
 | `HostName` | `neobyte.twc1.net` |
-| `User` | `neobyte` |
+| `User` | `ИМЯ-ЮЗЕРА-СКАЖЕТ-АДМИНМТРАТОР` |
 | `IdentityFile` | Путь к **приватному** ключу (`id_ed25519` или `id_rsa`) |
 
 Проверка из PowerShell (когда DNS уже отвечает):
