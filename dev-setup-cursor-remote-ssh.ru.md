@@ -150,13 +150,6 @@ Host neobyte-dev
 ```powershell
 ssh neobyte-dev
 ```
-
-Временно, пока DNS не разошёлся:
-
-```powershell
-ssh neobyte@ВАШ_IP
-```
-
 ---
 
 ## 3. Cursor и Remote SSH
