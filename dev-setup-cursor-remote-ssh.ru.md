@@ -16,7 +16,7 @@
 ### 1.1. Создать ключ
 
 1. Откройте PowerShell.
-2. Создайте папку `.ssh`, если её ещё нет, и сгенерируйте ключ типа Ed25519:
+2. Сгенерируйте ключ типа Ed25519:
 
 ```powershell
 New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.ssh"
