@@ -2,7 +2,7 @@
 
 **Language:** [Русский](tz-cursor-mcp-leadership-faq.ru.md) | [English](tz-cursor-mcp-leadership-faq.en.md)
 
-**Version:** 2.1 · **Date:** 2026-09-03  
+**Version:** 2.2 · **Date:** 2026-10-23  
 **Status:** reply before continuing  
 **Related:** [summary](tz-cursor-mcp-executive-summary.en.md) · [project description](tz-cursor-mcp-team.en.md) · [approval assessment](tz-cursor-mcp-governance-assessment.en.md)
 
@@ -14,7 +14,7 @@ This document answers five leadership questions. Access, network and hosting det
 
 ## 1. Cost
 
-**Approval figure: about $20k per year** (external cash spend, excluding staff payroll).  
+**Approval figure: about $14k per year** (external cash spend, excluding staff payroll).  
 One-off start-up payments are small and sit inside the same annual figure.
 
 ### 1.1 Start-up (one-off)
@@ -24,17 +24,17 @@ One-off start-up payments are small and sit inside the same annual figure.
 | MCP server pack for configuration search | ~RUB 7,000-8,500 (~$80-110) | Once per company (vendor list price); not multiplied by number of configurations |
 | Host setup fee (if dedicated server) | ~$150-200 | Only when ordering the server |
 | Install, access, initial configuration exports | $0 external | Done by staff |
-| **Total one-off external** | **about $230-310** | MCP + host setup; fits inside the ~$20k/year guide |
+| **Total one-off external** | **about $230-310** | MCP + host setup; fits inside the ~$14k/year guide |
 
-### 1.2 Recurring (inside ~$20k/year)
+### 1.2 Recurring (inside ~$14k/year)
 
 | Item | Guide |
 |------|-------|
 | Server and backup | ~$4-4.5k/year |
-| Cursor Teams for 15 people | $7.2k/year (~$40/person/mo) |
+| Cursor Plus for 12 people | ~$1.15k/year ($8/person/mo × 12) |
 | External AI (search + chat) | ~$3-5k/year |
-| 1C:Assistant (one seat) | within the buffer inside ~$20k |
-| Buffer for FX and usage | included in the ~$20k guide |
+| 1C:Assistant (one seat) | within the buffer inside ~$14k |
+| Buffer for FX and usage | included in the ~$14k guide |
 
 ### 1.3 Explicitly not included
 
@@ -61,7 +61,7 @@ As of September 2026 the product is still in testing; **1C plans to announce pri
 Full configuration exports and indexes are **not** uploaded as a whole archive: only what is needed for a given request or overnight index build is sent.  
 Allowed models inside Cursor / OpenRouter can be narrowed by project rules and Cyber (allow-list). Switching a specific model within already agreed providers is an operational setting, not a new project.
 
-**Model training:** on Cursor Teams we enable organization-level privacy mode; per the vendor’s public policy, code is not used for training in that mode. OpenRouter and chosen-model terms follow their policies and contract; if needed, we clarify with Cyber in a separate meeting.
+**Model training:** on Cursor Plus each person enables privacy mode in account settings; per the vendor’s public policy, code is not used for training in that mode. OpenRouter and chosen-model terms follow their policies and contract; if needed, we clarify with Cyber in a separate meeting.
 
 **Usage rules:** no passwords, personal data, or production exports in prompts. Web-chat question logs stay with us.
 
@@ -123,7 +123,7 @@ Enough for that meeting: confirm the budget figure; agree AI data flows; lock th
 
 | Question | Answer |
 |----------|--------|
-| Cost per year? | About **$20k** external; start-up ~$230-310 one-off (inside the guide). **1C firm** search/AI product licenses **excluded** (pricing from 1C no earlier than October 2026) |
+| Cost per year? | About **$14k** external; start-up ~$230-310 one-off (inside the guide). **1C firm** search/AI product licenses **excluded** (pricing from 1C no earlier than October 2026) |
 | What goes to AI cloud? | Questions and code/metadata fragments from exports; not live customer data |
 | Which AI providers? | Cursor (and models through it); OpenRouter or equivalent for chat and indexing; full exports stay on our server |
 | Model training? | Vendor privacy mode; model-specific details with Cyber if needed |

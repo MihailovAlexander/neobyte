@@ -2,7 +2,7 @@
 
 **Language:** [Русский](tz-cursor-mcp-team.ru.md) | [English](tz-cursor-mcp-team.en.md)
 
-**Version:** 3.1 · **Date:** 2026-09-03  
+**Version:** 3.2 · **Date:** 2026-10-23  
 **Owner:** 1C product owner  
 **For leadership:** [summary](tz-cursor-mcp-executive-summary.en.md) · [assessment](tz-cursor-mcp-governance-assessment.en.md) · [FAQ](tz-cursor-mcp-leadership-faq.en.md)
 
@@ -17,7 +17,7 @@ Management description. Installation details - after approval, for administrator
 | What | Cursor + search over our configuration exports for IT; web help chat for users - same envelope, staged go-live |
 | Is this new 1C module development? | No |
 | Live production DBs with customer data? | **No** |
-| Budget | About **$20k/year** external |
+| Budget | About **$14k/year** external |
 
 ---
 
@@ -31,7 +31,7 @@ Faster answers across 15 configurations; less analyst time spent on repeated use
 
 | | |
 |-|-|
-| Developers / analysts | 10 + 5 |
+| Developers / analysts | 12 |
 | Chat users | up to 50 |
 | Configurations | 15 |
 | Code updates | regular, via the normal repository process |
@@ -76,7 +76,7 @@ In the approved envelope. Go-live after server prep and access agreement, starti
 
 | | |
 |-|-|
-| Yearly guide | ~**$20k** (server and backup, Cursor Teams × 15, AI services, buffer) |
+| Yearly guide | ~**$14k** (server and backup, Cursor Plus × 12 × $8/mo, AI services, buffer) |
 | Start-up (one-off) | about **$230-310** (MCP ~RUB 7,000-8,500 / ~$80-110 + host setup if needed) - inside the yearly guide |
 | Setup and support | in-house, not in that figure |
 | 1C firm search/AI product licenses | **not included** - product in testing; 1C pricing no earlier than October 2026; start does not depend on them |
